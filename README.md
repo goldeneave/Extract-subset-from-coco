@@ -3,7 +3,7 @@ In the past days, I have tried many methods to extract specific data from coco-f
 I now share some experience and related code in the repo
 
 ### The repo will attach 3 py file, or more, but generally could divided into 3 stage
-So the code will named Stage{}, each file I will try to write some annotations
+So the code will named Stage_{}, each file I will try to write some annotations
 
 ## Stage_1.py
 In the py file, the code will use your own dataset to extract specific category and write a corresponding xml file for each img
