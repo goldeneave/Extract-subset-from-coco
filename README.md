@@ -28,3 +28,5 @@ and <*width*> and <*height*>  are the normalized dimensions of the bounding box
 ## verify.py
 After generate a new data subset, you could also check if you make it in a correct format. For me, I use detectron2 to check its format.
 Before use it, install it, I also attach code in the py file, if your device is Windows, you may refer to the official repo.
+
+If you are a really a beginner, I recommand you just copy the code and upload you generated files to Google Drive and test my complete code on it, and on the day I update the md file, I install the library on my desktop, I did git clone the file and install it with pip command, sooooo complicated
