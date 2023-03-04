@@ -1,6 +1,6 @@
 '''
 
-For new generated xml file, the snippet code will combine them into a new coco format json file
+For new generated xml file, the code snippet will combine them into a new coco format json file
 
 Specially if you really use coco dataset to extract subset, you could reset the img_id as minimal value
 also you could reserve the code below
