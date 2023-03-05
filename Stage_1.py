@@ -88,7 +88,8 @@ def write_xml(anno_path,head, objs, tail):
 
 
 def save_annotations_and_imgs(coco,dataset,filename,objs):
-    #将图片转为xml，例如:COCO_train2014_000000196610.jpg-->COCO_train2014_000000196610.xml
+    # transfer image file into xml file,which means a corresponding relationship
+    # for example, COCO_train2014_000000196610.jpg-->COCO_train2014_000000196610.xml
     dst_anno_dir = os.path.join(anno_dir, dataset)
     mkr(dst_anno_dir)
     anno_path=dst_anno_dir + '/' +filename[:-3]+'xml'
